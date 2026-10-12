@@ -1,12 +1,15 @@
-#include <stdio.h>
 
-int main() {
-    int n = 5;
-    unsigned long long factorial = 1;
-    
-    for (int i = 1; i <= n; i++) {
-        factorial *= i;
+#include<stdio.h>
+int main (){
+    int i =1;
+
+    int sum= 0;
+     printf("text data : 20\n");
+
+    while (i <=20){
+        printf("%d\n", i);
+        sum=sum+i;
+        i++;
     }
-    printf("Factorial of %d is: %llu\n", n, factorial);
-    return 0;
+   printf("Sum of first 20 natural numbers: %d\n", sum);
 }
