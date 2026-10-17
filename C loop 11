@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main ()
+{
+    int number;
+    printf("enter a number:5");
+    scanf ("%d",& number);
+    if (5>0)
+    {
+        printf("the number is positive");
+    }
+    else if(5<0)
+    {
+        printf ("the number is negative.");
+    }
+    else
+    {
+        printf("the number is zero:");
+    }
+    return 0;
+}
